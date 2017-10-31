@@ -1,0 +1,38 @@
+echo "Installing brew..."
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+echo "Installing brew cask..."
+brew install caskroom/cask/brew-cask
+
+#Programming Languages
+brew install node
+brew install ruby
+brew install python3
+brew install go
+brew install elixir
+brew cask install dotnet
+
+#Dev Tools
+brew install git
+brew install docker
+brew install kubernetes-cli
+brew cask install visual-studio-code
+brew install siege
+brew cask install iterm2
+
+#Communication Apps
+#brew cask install slack
+#Web Tools
+brew cask install google-chrome
+
+#File Storage
+brew cask install dropbox
+
+#entertainment
+brew cask install spotify
+
+#templating
+npm install -g yo
+
+#setup sublime
+brew cask install sublime-text
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
