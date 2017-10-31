@@ -1,0 +1,2 @@
+# macconfig
+config for mac
